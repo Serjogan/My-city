@@ -1,0 +1,89 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 ;
+    text-align: center;
+    border: 4 px solid black;
+   
+}
+
+#Hero{
+    background: url(images/Krem.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    width: 720px;
+    height: 393px;
+    color: white;
+    font-family: italic;
+    display:flex ;
+    flex-direction: column;
+    align-items: center ;
+    margin-bottom: -20px 
+   
+    
+}
+h1{
+    
+    background-color: blue;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+h2{
+    background-color: gold;
+    margin: 0px;
+    }
+    h3{
+        color: #1D3557;
+        padding: 30px;
+    }
+#Activities{
+    background: #F1FAEE;
+    background-size: cover;
+    width: 720px;
+    height: 343px; 
+    margin: 0 auto;   
+}
+ #activity-img {
+   display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    padding: 20px ;
+ }
+}
+h5{
+    width: 15px;
+    margin: 0;
+    color: #1D3557;
+}
+
+img {
+    width: 100px;
+   border-radius: 50%;     
+}
+#avatar {
+     width: 200px;
+     border-radius: 0;
+     height: 218px;
+}
+  #Guide{
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      justify-content: space-around; 
+      text-align: center;
+      background: #A8DADC;
+     background-size: cover;
+      color: #1D3557;
+      border-bottom: 2px solid #1D3557;
+}
